@@ -1,0 +1,86 @@
+/* Calculator.css */
+
+.calculator-container {
+    margin-left: 500px;
+    margin-top: 190px;
+    width: 700px;
+    text-align: center;
+}
+
+.heading {
+    left: 710px;
+    top: 70px;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator-input {
+    font-size: 1.5em;
+    text-align: right;
+    background-color: #e0f7fa; /* Light Blue */
+    border: 2px solid #4fc3f7; /* Blue */
+    padding: 10px;
+}
+
+/* Calculator.css */
+
+.instruction-container {
+    position: absolute;
+    margin-top: 100px;
+    left: 100px;
+    text-align: left;
+    padding: 20px;
+    width: max-content;
+    background-color: #eeeeee; /* Light Gray Background */
+    border: 1px solid #dddddd; /* Border Color */
+    border-radius: 5px; /* Rounded Corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box Shadow for a subtle lift */
+}
+
+.instruction-container h4 {
+    color: #333333; /* Dark Text Color */
+}
+
+.instruction-container p {
+    color: #555555; /* Slightly Darker Text Color */
+    margin-bottom: 10px; /* Adjust as needed for spacing */
+}
+
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 10px 0;
+}
+
+.calculator-buttons button {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #4fc3f7; /* Blue */
+    border-radius: 5px;
+    background-color: #81d4fa; /* Lighter Blue */
+    color: #090909;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator-buttons button:hover {
+    background-color: #5aaff4; /* Darker Blue on Hover */
+    color: rgb(0, 0, 0);
+}
+
+.calculator-buttons button:active {
+    background-color: #42a5f5; /* Even Darker Blue on Click */
+}
+
+.calculator-result {
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: #81d4fa; /* Lighter Blue */
+    color: #080808;
+    padding: 10px;
+    border: 2px solid #42a5f5; /* Even Darker Blue */
+    border-radius: 5px;
+    text-align: right;
+}
